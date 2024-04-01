@@ -1,0 +1,21 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: clip;
+}
+section{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 100vw;
+}
+
+span{
+  color: #B4D700;
+}

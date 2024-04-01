@@ -1,0 +1,31 @@
+.Homesection{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);   
+    padding-top: 60px;
+  
+}
+.Startwithme{
+    background-color:#B4D700 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+.TextDivHome{
+    text-align: center;
+}
+.HLarger{
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Startwithme:hover{
+    background-color: black;
+    transition: ease-in-out 0.25s;
+    scale: 1.1
+    ;
+}
+.Hp{
+    line-height: 20px;
+}

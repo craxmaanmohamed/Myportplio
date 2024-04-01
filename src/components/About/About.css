@@ -1,0 +1,75 @@
+.Aboutsection{
+    background-color: #ECECEC;
+    color: black;
+    padding: 50px;
+    display: flex;
+    width: 100vw;
+}
+.Aboutsection, h1{
+    font-size: 30px;
+}
+.AboutTextImg{
+    display: flex;
+    justify-content: center;
+ 
+}
+.AboutP{
+    padding-top: 70px;
+}
+.learnMore{
+    background-color:#B4D700 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.learnMore:hover{
+    background-color: black;
+    transition: ease-in-out 0.25s;
+    scale: 1.1;
+}
+/* Responsive About Page */
+@media  (max-width: 600px) {
+    .Aboutsection{
+        height: auto;
+    }
+   .AboutTextImg{
+    display: block;
+    font-size: 10px;
+    text-align: center;
+   }
+   .AboutTextImg img{
+
+    width: 300px;
+    height: 300px;
+   }
+   .AboutP{
+    margin-top: -100px;
+    font-size: 20px;
+   }
+}
+@media (min-width: 600px) {
+    .AboutTextImg{
+        display: block;
+        font-size: 10px;
+        text-align: center;
+       }
+    .AboutP{
+        font-size: 25px;
+        margin-top: -150px;
+       }
+
+}
+@media (min-width: 800px) {
+    .AboutTextImg{
+        display: flex;
+        justify-content: center;
+     
+    }
+    .AboutP{
+        margin-top
+        : 0;
+    }
+}

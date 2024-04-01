@@ -1,0 +1,57 @@
+.Skillssection{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 14px;
+}
+.ContanerSkills{
+    overflow-x: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    padding: 30px;
+}
+.ChildContanerSkills{ 
+    width: auto;
+    height: 195px;
+    display: block;
+    padding: 20px;
+    margin: 7px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+   
+}
+.ChildContanerSkills:hover{
+    transition: 0.23s ease-in-out;
+    scale: 1.05;
+}
+
+h4{ line-height: 23px;}
+/* responsive */
+@media  (max-width: 800px) {
+    .ContanerSkills{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    .ChildContanerSkills{ 
+        width: auto;
+        font-size: 15px;
+    }
+
+}
+@media  (max-width: 580px) {
+    .ContanerSkills{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+    .ChildContanerSkills{ 
+        width: auto;
+    }
+
+}
