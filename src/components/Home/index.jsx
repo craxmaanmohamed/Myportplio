@@ -1,11 +1,11 @@
 import "./Home.css";
-
+import homeimg from "/images/Homeimg.png"
 import { Link} from 'react-scroll';
 function Home(){
     return(
       <section id="Homesection" className="Homesection">
   
-      <img className="myimg" src ="public/images/homeimg.png"  alt="Home Image"   height="300" width="300" />
+      <img className="myimg" src ={homeimg}  alt="Home Image"   height="300" width="300" />
       <div  className="TextDivHome">
       <h1 style={{fontSize:"25px"}}>Hi I’m <span className="span"> C/raxmaan</span></h1>
       <h1 className="HLarger" >web developer</h1>

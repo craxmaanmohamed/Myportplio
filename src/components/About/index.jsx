@@ -1,12 +1,12 @@
 import "./About.css"
-
+import AboutImg from "/images/AboutImg.png"
 function About(){
   return(
     <section id="Aboutsection" className="Aboutsection">
     <h1 className="page-Name-H">About <span>Me</span> </h1>
     <div className="AboutTextImg">
       <div>
-      <img src="public/images/Aboutimg.png"  alt="About Image" height="450px" width="450px"></img>
+      <img src={AboutImg}  alt="About Image" height="450px" width="450px"></img>
       </div>
 
      <div>
