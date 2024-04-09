@@ -6,6 +6,6 @@ waxaan isticmaalay 3 packages
  03. npm i react-icons // Iconska ayuu kaa saacidayaa 
 
 halkaan ka ee projectiga "vercel". 
-   https://portfolio-peach-psi-93.vercel.app/
+   https://myportplio-29tkrzlre-craxmaanmohameds-projects.vercel.app/
 
 #Start the project // npm run dev
